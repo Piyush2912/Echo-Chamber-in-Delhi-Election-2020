@@ -66,7 +66,7 @@ https://user-images.githubusercontent.com/47279598/148943010-1be35edf-2d56-4631-
   - Meanshift clustering algorithm
 
 <p align="center">
-  <img src="![image](https://github.com/Piyush2912/Echo-Chamber-in-Delhi-Election-2020/blob/main/Figures/AAP_Logo.png?raw=true") />
+  <img src="![image](https://github.com/Piyush2912/Echo-Chamber-in-Delhi-Election-2020/blob/main/Figures/AAP_Logo.png") />
 </p>
 <p align=center> 
   Figure 1: AAP (Aam Aadmi Party)
