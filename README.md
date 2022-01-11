@@ -70,7 +70,6 @@ This is the research work carried out to study the Echo Chamber existing in Delh
   <img src="![image](https://user-images.githubusercontent.com/47279598/148937725-67ef5e1a-80a4-4b64-9def-a5e6e5cc74cf.png)" />
 </p>
 <p align=center> 
-
   Figure 1: AAP (Aam Aadmi Party)
   Source: https://www.shutterstock.com/search/aap+icon
 </p>
