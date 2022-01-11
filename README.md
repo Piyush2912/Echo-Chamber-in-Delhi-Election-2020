@@ -45,9 +45,9 @@ This is the research work carried out to study the Echo Chamber existing in Delh
 ## 2. Motivation
 - The changing online environment - where the breadth of the information we are exposed to is algorithmically narrowed - has raised concerns about the creation of "echo chambers"; in which individuals are exposed mainly to information already in alignment with their preconceived ideas and opinions. 
 - It has been said that Echo chambers are tricky to recognize, especially if you’re in one. So it gets us to wondering if a social group or website may be an echo chamber. Just before starting this project we asked a few questions from us regarding an Echo chamber.
-  ●	Do they tend to only give one perspective on an issue?
-  ●	Is that viewpoint mainly supported by rumour or incomplete evidence?
-  ●	Are facts ignored whenever they go against that viewpoint?
+  -	Do they tend to only give one perspective on an issue?
+  -	Is that viewpoint mainly supported by rumour or incomplete evidence?
+  -	Are facts ignored whenever they go against that viewpoint?
 - To find the answers to these questions we moved ahead with our study.
 - Secondly there was a lot of buzz around echo chambers being called a trap and it should be avoided.
 
