@@ -16,7 +16,6 @@ This is the research work carried out to study the Echo Chamber existing in Delh
 5. Done
 
 ## Table of Contents: 
-https://github.com/Piyush2912/Echo-Chamber-in-Delhi-Election-2020/edit/main/README.md
 1. [Abstract](https://github.com/Piyush2912/Echo-Chamber-in-Delhi-Election-2020#1-abstract)
 2. [Motivation](https://github.com/Piyush2912/Echo-Chamber-in-Delhi-Election-2020#2-motivation)
 3. [Problem Statement](https://github.com/Piyush2912/Echo-Chamber-in-Delhi-Election-2020#3-problem-statement)
