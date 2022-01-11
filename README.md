@@ -65,17 +65,14 @@ https://user-images.githubusercontent.com/47279598/148943010-1be35edf-2d56-4631-
   - DBSCAN (Density Based Spatial Clustering of Application with Noise) clustering algorithm
   - Meanshift clustering algorithm
 
-<p align="center">
-  <img src="![image](https://github.com/Piyush2912/Echo-Chamber-in-Delhi-Election-2020/blob/main/Figures/AAP_Logo.png") />
-</p>
+![AAP_Logo](https://user-images.githubusercontent.com/47279598/148944227-f4706785-f5b2-4ef5-b030-ecb49b8af441.png)
+
 <p align=center> 
   Figure 1: AAP (Aam Aadmi Party)
   Source: https://www.shutterstock.com/search/aap+icon
 </p>
 
-<p align="center">
-  <img src="![image](https://user-images.githubusercontent.com/47279598/148938161-dd8be7b2-e244-4486-b8af-5b72e7b5f5b4.png)" />
-</p>
+![BJP_logo](https://user-images.githubusercontent.com/47279598/148944405-b4b677a2-df38-4406-8b1f-c6387f2f236d.png)
 <p align=center> 
   Figure 2: BJP (Bharatiya Janata Party)
   Source: https://www.bjplogo.com/
@@ -115,9 +112,7 @@ The Jupyter Notebook software equipped with Python 3.8 kernel was selected in th
 
 ### Dataset Description
 
-<p align="center">
-  <img src="![image](https://user-images.githubusercontent.com/47279598/148932288-a5702503-358c-418d-a005-a1587e749e22.png)"/>
-</p>
+![Dataset after preprocessing](https://user-images.githubusercontent.com/47279598/148944460-d5e02326-9039-46bb-b945-55c04faefcd9.png)
 <p align=center> 
 Figure 3: Snapshot of dataset
 </p>
@@ -134,9 +129,7 @@ Figure 3: Snapshot of dataset
 
 ## 7. Generic Methodology
 
-<p align="center">
-  <img src="![image](https://user-images.githubusercontent.com/47279598/148932382-8e1d4717-e0a9-4a11-9243-f6093d952830.png)" />
-</p>
+![Methodology](https://user-images.githubusercontent.com/47279598/148944516-6f9c3235-56e7-42b5-8514-9707cc415e99.png)
 <p align=center> 
 Figure 4: Data Pipeline
 </p>
@@ -155,11 +148,8 @@ Figure 4: Data Pipeline
 
 <p align="center">
   Table 1 : Comparison between various clustering algorithms
-  
-  <img src="![image](https://user-images.githubusercontent.com/47279598/148932742-46cb94d7-129d-4400-9933-11d959ef0ada.png)" />
 </p>
-<p align=center> 
-</p>
+![Comparison of different clustering algorithms](https://user-images.githubusercontent.com/47279598/148944571-97f144dd-4ab3-4a95-9ea3-966421110337.png)
 
 - After Going through the comparison Table 1 we choose K-means clustering as our primary clustering algorithm for further evaluation of Echo chambers. 
 - We choose K-means clustering because we are getting higher silhouette score as higher the score clusters are denser, adjusted rand score as 1 which is a perfect match, lower davies bouldin score as lower the value better is the clustering performance, mutual info score is almost similar to other clustering algorithms, high Calinski harabasz score as higher the index better the performance. 
@@ -173,36 +163,36 @@ Figure 4: Data Pipeline
   - Moderate Tolerance Level
   - Low Tolerance Level
 - We calculated a Fluctuating Factor for each user as,
+
+![Formula of Fluctuating factor](https://user-images.githubusercontent.com/47279598/148944665-9ba0f3ba-0e28-4a1b-b1ac-73b566aba37d.png)
 <p align="center">
-  <img src="![image](https://user-images.githubusercontent.com/47279598/148934149-4a405b81-2da8-406f-b2e4-79e740a47eb9.png)" />
 Figure 5: Formula for Fluctuating Factor
 </p>
 
+
+![Formula of Tolerance level of user](https://user-images.githubusercontent.com/47279598/148944709-453ba888-f90d-43dc-b41f-963bab6ddb8a.png)
 <p align="center">
-  <img src="![image](https://user-images.githubusercontent.com/47279598/148934370-7615542f-16a0-4d72-8548-385520b94b7f.png)" />
  Figure 6: Formula of Tolerance  
 </p>
 
 ### Results of Tolerance level of people
 
-<p align="center">
-  <img src="![image](https://user-images.githubusercontent.com/47279598/148933368-126b83b9-b354-48db-a97a-cee1c47ae76d.png)" />
-</p>
+![Probability Density of people with each level of tolerance in support of BJP](https://user-images.githubusercontent.com/47279598/148944833-5774a4d6-073e-4a9e-b9ac-dc67499337c1.png)
 <p align=center> 
 Figure 7: Probability Density of people with each level of tolerance in support of BJP
-  
-  <img src="![image](https://user-images.githubusercontent.com/47279598/148933518-7750a24d-6565-4c27-bf87-56a005f65a7c.png)" />
 </p>
+
+![Probability Density of people with each level of tolerance in opposition of BJP](https://user-images.githubusercontent.com/47279598/148944915-3baf8577-936b-4b32-a5a6-ebbec98ba9aa.png)
 <p align=center> 
 Figure 8: Probability Density of people with each level of tolerance in opposition of BJP
-
-  <img src="![image](https://user-images.githubusercontent.com/47279598/148933548-2c86eb74-ac08-4069-84f6-b3ee6a23ba90.png)" />
 </p>
+
+![Probability Density of people with each level of tolerance in support of AAP](https://user-images.githubusercontent.com/47279598/148944970-4cf55744-34ed-4faf-9fa4-4f4d54ece1b4.png)
 <p align=center> 
 Figure 9: Probability Density of people with each level of tolerance in support of AAP
-  
-  <img src="![image](https://user-images.githubusercontent.com/47279598/148933562-dd1de06f-81fb-4c32-8328-cb52e7f4c43a.png)" />
 </p>
+
+![Probability Density of people with each level of tolerance in opposition of AAP](https://user-images.githubusercontent.com/47279598/148945011-2b05c841-cd8d-4dc4-81cf-c853f3e69ea3.png)
 <p align=center> 
 Figure 10: Probability Density of people with each level of tolerance in opposition of AAP
 </p>
@@ -232,24 +222,22 @@ Figure 10: Probability Density of people with each level of tolerance in opposit
 
 ### Results of Influence power of users in echo chamber
 
-<p align="center">
-  <img src="![image](https://user-images.githubusercontent.com/47279598/148935220-446c11da-2a33-47c4-84ab-96b5a409bb86.png)" />
-</p>
+![Growth and Decline in number of people over a period of 30 days and corresponding Influence in support of AAP](https://user-images.githubusercontent.com/47279598/148945095-457893cf-19ba-48d7-8190-9cbdd9fd79a8.png)
 <p align=center> 
 Figure 11: Growth and Decline in number of people over a period of 30 days and corresponding Influence in support of BJP
-  
-  <img src="![image](https://user-images.githubusercontent.com/47279598/148935245-13b1200d-5da2-4397-bb9d-57e6bff47a76.png)" />
 </p>
+
+![Growth and Decline in number of people over a period of 30 days and corresponding Influence in opposition of BJP](https://user-images.githubusercontent.com/47279598/148945151-5bccccac-fa5c-4210-83c4-d215797f9e2d.png)
 <p align=center> 
 Figure 12: Growth and Decline in number of people over a period of 30 days and corresponding Influence in opposition of BJP
-  
-  <img src="![image](https://user-images.githubusercontent.com/47279598/148935269-fbc2b27c-67b9-4490-b5c2-11cce487c0e9.png)" />
 </p>
+
+![Growth and Decline in number of people over a period of 30 days and corresponding Influence in support of AAP](https://user-images.githubusercontent.com/47279598/148945183-bb128da8-f160-4f83-bba5-92e1278df173.png)
 <p align=center> 
 Figure 13: Growth and Decline in number of people over a period of 30 days and corresponding Influence in support of AAP
-  
-  <img src="![image](https://user-images.githubusercontent.com/47279598/148935293-6f1a3295-93f0-42cc-bb9f-1b1a1336ebee.png)" />
 </p>
+
+![Growth and Decline in number of people over a period of 30 days and corresponding Influence in opposition of AAP](https://user-images.githubusercontent.com/47279598/148945240-f0535d30-e28f-4a1f-af6e-b8757d6c932a.png)
 <p align=center> 
 Figure 14: Growth and Decline in number of people over a period of 30 days and corresponding Influence in opposition of AAP
 </p>
