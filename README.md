@@ -32,30 +32,33 @@ This is the research work carried out to study the Echo Chamber existing in Delh
 14. [License](https://github.com/Piyush2912/Echo-Chamber-in-Delhi-Election-2020#14-license)
 
 ## 1. Abstract
+
 - This project is concerned with the study of Echo chamber existing in Delhi Election 2020.
 - There are three phrases of our project.
   - Training: Training model on the basis of three clustering algorithms.
   - Optimizing: Determining the best algorithm for analysis of results.
   - Analysis of Results on the basis of tolerance, influence and studying future trend of 30 days with RNN  
 - Dataset consist of  1M tweets combined with 4 csvs for the four classes, BJP Support, BJP Against, AAP Support, AAP Against..
-- K-Means clustering is used for fine tuning our model on dataset.
-- Used TF-IDF Vectorizer with max-features as 200 and n-gram range as (1,2). 
+- K-Means clustering is used with TF-IDF Vectorizer with max-features as 200 and n-gram range as (1,2). 
 - Our proposed model gives a result of AAP wining Delhi election in 2020.
 
 ## 2. Motivation
+
 - The changing online environment - where the breadth of the information we are exposed to is algorithmically narrowed - has raised concerns about the creation of "echo chambers"; in which individuals are exposed mainly to information already in alignment with their preconceived ideas and opinions. 
-- It has been said that Echo chambers are tricky to recognize, especially if you’re in one. So it gets us to wondering if a social group or website may be an echo chamber. Just before starting this project we asked a few questions from us regarding an Echo chamber.
+- It has been said that Echo chambers are tricky to recognize, especially if you’re in one. 
+- So it gets us to wondering if a social group or website may be an echo chamber. 
+- Just before starting this project we asked a few questions from us regarding an Echo chamber.
   -	Do they tend to only give one perspective on an issue?
   -	Is that viewpoint mainly supported by rumour or incomplete evidence?
   -	Are facts ignored whenever they go against that viewpoint?
+  
 - To find the answers to these questions we moved ahead with our study.
 - Secondly there was a lot of buzz around echo chambers being called a trap and it should be avoided.
-
 - And several tips were suggested on avoiding them that we should make a habit of checking multiple news sources to ensure you’re getting complete, objective info, interacting with people of different perspectives. 
 - So to find the answer to whether echo chambers are really dangerous we analysed echo chambers on Delhi CM elections held in 2020.
 
-
 ## 3. Problem Statement
+
 - The goal is to predict whether the AAP or BJP will win election in year 2020 by social network analysis.
 - Since this is an issue of unsupervised machine learning - clustering. 
 - Algorithms have been narrowed down to three.
@@ -79,21 +82,20 @@ Figure 2: BJP (Bharatiya Janata Party)
 Source: https://www.bjplogo.com/
 </p>
 
-
 ## 4. Introduction
+
 - An echo chamber is an environment where a person only encounters information or opinions that reflect and reinforce their own. 
 - Echo chambers can create misinformation and distort a person’s perspective so they have difficulty considering opposing viewpoints and discussing complicated topics. Echo chambers can happen anywhere information is exchanged, whether it’s online or in real life. 
 - But on the Internet, almost anyone can quickly find like-minded people and perspectives via social media and countless news sources.
 - Echo chambers have emerged as an issue of concern in the political discourse of democratic countries. 
 - There is growing concern that, as citizens become more polarised about political issues, they do not hear the arguments of the opposite side, but are rather surrounded by people and news sources who express only opinions they agree with. If echo chambers exist, then they might hamper the deliberative process in democracy.
-
 - In this Research, we did social network analysis on twitter dataset and studied the degree to which echo chambers exist in political discourse on Twitter, and how they are structured. 
 - We approach the study in terms of two components: the opinion that is shared by a user, and the “chamber”, i.e., the social network around the user, which allows the opinion to “echo” back to the user as it is also shared by others. 
 - The opinion corresponds to content items shared by users, while the underlying social network is what allows their propagation. 
 - We say that an echo chamber exists if the political leaning of the content that users receive from the network agrees with that of the content they share.
 
-
 ## 5. Requirements
+
 All the experimental trials have been conducted on a laptop equipped by an Intel i7-8750H processor (4.1 GHz), 16 GB of RAM with 1050ti max-Q with 4 GB of VRAM. 
 The Jupyter Notebook software equipped with Python 3.8 kernel was selected in this project for the development and implementation of the different experimental trails.
 
@@ -132,6 +134,7 @@ Figure 3: Snapshot of dataset
 - Dataset contains around 1M+ tweets for both the political parties.
 
 ## 7. Generic Methodology
+
 <p align="center">
   <img src="![image](https://user-images.githubusercontent.com/47279598/148932382-8e1d4717-e0a9-4a11-9243-f6093d952830.png)" />
 </p>
@@ -147,10 +150,10 @@ Figure 4: Data Pipeline
 - After preprocessing has been done now our data is ready to be applied to the machine learning models.
 - Second step was to identify clusters in this preprocessed dataset for which I used different clustering algorithms: these are DB-SCAN clustering algorithm, K Means clustering algorithm and Mean Shift clustering algorithm. 
 
-
 ## 8. Results
 
 ### Comparison between various clustering algorithms:
+
 <p align="center">
   Table 1 : Comparison between various clustering algorithms
   
@@ -230,7 +233,6 @@ Figure 10: Probability Density of people with each level of tolerance in opposit
 
 ### Results of Influence power of users in echo chamber
 
-
 <p align="center">
   <img src="![image](https://user-images.githubusercontent.com/47279598/148935220-446c11da-2a33-47c4-84ab-96b5a409bb86.png)" />
 </p>
@@ -263,22 +265,18 @@ Figure 14: Growth and Decline in number of people over a period of 30 days and c
 - Those in opposition of bjp that in a period of 30 days, this eco-chamber has influenced a huge number of people to tweet against BJP. 
 - In Figure 14 we can see that over the period of 30 days, the number of people leaving this eco-chamber are very high compared to people joining it, and this shows the poorest influencing power of this echo-chamber among the four.
 
-
 ## 10. Summary and Conclusion
 
 - Tolerance level of people as well as Influence power of echo chambers both play a major role in election results.
 - AAP support group has a high number  of highly tolerant people as well as high influencing power, resulting in a major victory in Delhi Election 2020.
 - BJP had more people with moderate levels of tolerance hence it was more prone to lose its user base under the  influence of others.
 
-
 ## 11. Limitations/ Challenges faced during the project
-
 
 - The dataset consisted of lot of noise which could hamper the results of our analysis so they were removed from datasets.
 - Only these 3 algorithms were considered in this research because they have upper hand when dealing with textual data.
 - Used standard preprocessing methods for data preprocessing that includes stopwords and punctuation removal followed by removing tags and hyperlinks. 
 - lemmatizing it using inbuilt POS tagger and lemmatizer in the NLTK library of python. 
-
 
 ## 12. Future Scope
 
@@ -291,8 +289,8 @@ Figure 14: Growth and Decline in number of people over a period of 30 days and c
   - Second, Our findings show the effect of tolerance and influence on each user in an echo chamber but this could be extended by adding a new parameter of unfriending between them.
 - To increase the size of dataset and make it more robust.
 
-
 ## 13. Credits: 
+
 Thanking my project teammates for caring and supporting me wholeheartedly. The role you played in my life is invaluable. I’m grateful for all of your help and continued support.
 <div class="align-text">
   <p>
@@ -303,4 +301,5 @@ Thanking my project teammates for caring and supporting me wholeheartedly. The r
 </div>
 
 ## 14. License: 
+
 - Apache License 2.0
