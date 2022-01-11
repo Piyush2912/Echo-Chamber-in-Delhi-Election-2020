@@ -70,16 +70,17 @@ This is the research work carried out to study the Echo Chamber existing in Delh
   <img src="![image](https://user-images.githubusercontent.com/47279598/148937725-67ef5e1a-80a4-4b64-9def-a5e6e5cc74cf.png)" />
 </p>
 <p align=center> 
-Figure 1: AAP (Aam Aadmi Party)
-Source: https://www.shutterstock.com/search/aap+icon
+
+  Figure 1: AAP (Aam Aadmi Party)
+  Source: https://www.shutterstock.com/search/aap+icon
 </p>
 
 <p align="center">
   <img src="![image](https://user-images.githubusercontent.com/47279598/148938161-dd8be7b2-e244-4486-b8af-5b72e7b5f5b4.png)" />
 </p>
 <p align=center> 
-Figure 2: BJP (Bharatiya Janata Party)
-Source: https://www.bjplogo.com/
+  Figure 2: BJP (Bharatiya Janata Party)
+  Source: https://www.bjplogo.com/
 </p>
 
 ## 4. Introduction
