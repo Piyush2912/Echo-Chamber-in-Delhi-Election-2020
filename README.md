@@ -3,12 +3,11 @@ This is the research work carried out to study the Echo Chamber existing in Delh
 
 
 ## Demonstration of Project:
-<p align="center">
-  <img src="" />
-</p>
 
+https://user-images.githubusercontent.com/47279598/148943010-1be35edf-2d56-4631-b8e6-2ed35f50308a.mp4
 
 ## How to use?
+
 1. Download the required files into a directory if your choice.
 2. Open required codes in Jupyter Notebook.  
 3. Install the dependencies as mentioned in code.
@@ -16,6 +15,7 @@ This is the research work carried out to study the Echo Chamber existing in Delh
 5. Done
 
 ## Table of Contents: 
+
 1. [Abstract](https://github.com/Piyush2912/Echo-Chamber-in-Delhi-Election-2020#1-abstract)
 2. [Motivation](https://github.com/Piyush2912/Echo-Chamber-in-Delhi-Election-2020#2-motivation)
 3. [Problem Statement](https://github.com/Piyush2912/Echo-Chamber-in-Delhi-Election-2020#3-problem-statement)
@@ -51,7 +51,6 @@ This is the research work carried out to study the Echo Chamber existing in Delh
   -	Do they tend to only give one perspective on an issue?
   -	Is that viewpoint mainly supported by rumour or incomplete evidence?
   -	Are facts ignored whenever they go against that viewpoint?
-  
 - To find the answers to these questions we moved ahead with our study.
 - Secondly there was a lot of buzz around echo chambers being called a trap and it should be avoided.
 - And several tips were suggested on avoiding them that we should make a habit of checking multiple news sources to ensure you’re getting complete, objective info, interacting with people of different perspectives. 
@@ -67,7 +66,7 @@ This is the research work carried out to study the Echo Chamber existing in Delh
   - Meanshift clustering algorithm
 
 <p align="center">
-  <img src="![image](https://user-images.githubusercontent.com/47279598/148937725-67ef5e1a-80a4-4b64-9def-a5e6e5cc74cf.png)" />
+  <img src="![image](https://github.com/Piyush2912/Echo-Chamber-in-Delhi-Election-2020/blob/main/Figures/AAP_Logo.png?raw=true") />
 </p>
 <p align=center> 
   Figure 1: AAP (Aam Aadmi Party)
