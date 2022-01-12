@@ -7,6 +7,8 @@ This is the research work carried out to study the Echo Chamber existing in Delh
 
 https://user-images.githubusercontent.com/47279598/148943010-1be35edf-2d56-4631-b8e6-2ed35f50308a.mp4
 
+### Link to download dataset : https://drive.google.com/drive/folders/18YEkbc8dL-AgoMKd0159KbsI7WBXHHCx?usp=sharing
+
 ## How to use?
 
 1. Download the required files into a directory if your choice.
